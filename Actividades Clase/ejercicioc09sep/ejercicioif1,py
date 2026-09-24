@@ -1,0 +1,46 @@
+npar = 0
+nimpar = 0
+
+# --- Número 1 ---
+n = int(input("introduce el numero 1 entero positivo\n"))
+if n > 0:
+    if n % 2 == 0:
+        npar = npar + 1
+    else:
+        nimpar = nimpar + 1
+
+# 
+n = int(input("introduce el numero 2 entero positivo\n"))
+if n > 0:
+    if n % 2 == 0:
+        npar = npar + 1
+    else:
+        nimpar = nimpar + 1
+
+# 
+n = int(input("introduce el numero 3 entero positivo\n"))
+if n > 0:
+    if n % 2 == 0:
+        npar = npar + 1
+    else:
+        nimpar = nimpar + 1
+
+# 
+n = int(input("introduce el numero 4 entero positivo\n"))
+if n > 0:
+    if n % 2 == 0:
+        npar = npar + 1
+    else:
+        nimpar = nimpar + 1
+
+# -
+n = int(input("introduce el numero 5 entero positivo\n"))
+if n > 0:
+    if n % 2 == 0:
+        npar = npar + 1
+    else:
+        nimpar = nimpar + 1
+
+# Resultados finales
+print("fueron", npar, "numeros par")
+print("fueron", nimpar, "numeros impar")
